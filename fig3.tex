@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usetikzlibrary{graphs,arrows,snakes,backgrounds}
+\usepackage[active,pdftex,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+\pgfrealjobname{fig3}
+\setlength{\PreviewBorder}{0.5bp}
+\begin{document}
+\beginpgfgraphicnamed{fig3-f1}
+\begin{tikzpicture}[grow'=down,
+                    line width = 1pt,
+                    vertex/.style={minimum size=2pt,fill=none,draw,circle},
+                    open/.style={fill=none},
+                    sibling distance=2cm,level distance=1cm,
+                    leaf/.style={label={[name=#1]right:#1}}
+                    ,auto]
+\node [vertex,open] (root) {$\boldsymbol{x_n}$}
+child {node[vertex,open] {$\boldsymbol{d^1}$}}
+child {node[vertex,open] {$\boldsymbol{a^1}$}
+    child {node[vertex,open] {$\boldsymbol{d^2}$}}
+    child {node[vertex,open] {$\boldsymbol{a^2}$}
+        child {node[vertex,open] {$\boldsymbol{d^3}$}}
+        child {node[vertex,open] {$\boldsymbol{a^3}$}
+            child {node[vertex,open] {$\cdots$}}
+            child {node[vertex,open] {$\cdots$}}
+        }
+    }
+};
+\end{tikzpicture}
+\endpgfgraphicnamed
+\end{document}
