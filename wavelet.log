@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  21 NOV 2017 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.17)  22 NOV 2017 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,21 +723,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
-Package epstopdf Info: Source file: <fig1.eps>
+Package epstopdf Info: Source file: <./figs/fig1.eps>
 (epstopdf)                    date: 2017-11-20 14:53:36
 (epstopdf)                    size: 8651 bytes
-(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)             Output file: <./figs/fig1-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-11-20 14:57:08
 (epstopdf)                    size: 6228 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf 
-fig1.eps>
+(epstopdf)             Command: <repstopdf --outfile=./figs/fig1-eps-converted-
+to.pdf ./figs/fig1.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<fig1-eps-converted-to.pdf, id=4, 578.16pt x 433.62pt>
-File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<./figs/fig1-eps-converted-to.pdf, id=4, 578.16pt x 433.62pt>
+File: ./figs/fig1-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig1-eps-converted-to.pdf>
-Package pdftex.def Info: fig1-eps-converted-to.pdf used on input line 71.
+<use ./figs/fig1-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/fig1-eps-converted-to.pdf used on input line 71
+.
 (pdftex.def)             Requested size: 256.06737pt x 199.16988pt.
  [1
 
@@ -746,23 +747,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-Package epstopdf Info: Source file: <fig2.eps>
+Package epstopdf Info: Source file: <./figs/fig2.eps>
 (epstopdf)                    date: 2017-11-20 14:56:41
 (epstopdf)                    size: 17629 bytes
-(epstopdf)             Output file: <fig2-eps-converted-to.pdf>
+(epstopdf)             Output file: <./figs/fig2-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-11-20 14:57:09
 (epstopdf)                    size: 6560 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig2-eps-converted-to.pdf 
-fig2.eps>
+(epstopdf)             Command: <repstopdf --outfile=./figs/fig2-eps-converted-
+to.pdf ./figs/fig2.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
-<fig2-eps-converted-to.pdf, id=74, 578.16pt x 433.62pt>
-File: fig2-eps-converted-to.pdf Graphic file (type pdf)
+<./figs/fig2-eps-converted-to.pdf, id=74, 578.16pt x 433.62pt>
+File: ./figs/fig2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig2-eps-converted-to.pdf>
-Package pdftex.def Info: fig2-eps-converted-to.pdf used on input line 90.
+<use ./figs/fig2-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/fig2-eps-converted-to.pdf used on input line 90
+.
 (pdftex.def)             Requested size: 256.06737pt x 199.16988pt.
- [2 <./fig1-eps-converted-to.pdf> <./fig2-eps-converted-to.pdf>]
+ [2 <./figs/fig1-eps-converted-to.pdf> <./figs/fig2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
@@ -772,29 +774,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--143
 
  []
 
-<fig3.pdf, id=97, 167.20567pt x 138.7574pt>
-File: fig3.pdf Graphic file (type pdf)
- <use fig3.pdf>
-Package pdftex.def Info: fig3.pdf used on input line 148.
+<./figs/fig3.pdf, id=97, 167.20567pt x 138.7574pt>
+File: ./figs/fig3.pdf Graphic file (type pdf)
+ <use ./figs/fig3.pdf>
+Package pdftex.def Info: ./figs/fig3.pdf used on input line 148.
 (pdftex.def)             Requested size: 170.71844pt x 142.26958pt.
- [3] [4 <./fig3.pdf>]
-Package epstopdf Info: Source file: <fig4.eps>
+
+[3] [4 <./figs/fig3.pdf>]
+Package epstopdf Info: Source file: <./figs/fig4.eps>
 (epstopdf)                    date: 2017-11-18 22:05:26
 (epstopdf)                    size: 52838 bytes
-(epstopdf)             Output file: <fig4-eps-converted-to.pdf>
+(epstopdf)             Output file: <./figs/fig4-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-11-18 22:05:34
 (epstopdf)                    size: 15493 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig4-eps-converted-to.pdf 
-fig4.eps>
+(epstopdf)             Command: <repstopdf --outfile=./figs/fig4-eps-converted-
+to.pdf ./figs/fig4.eps>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
-<fig4-eps-converted-to.pdf, id=139, 578.16pt x 433.62pt>
-File: fig4-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig4-eps-converted-to.pdf>
-Package pdftex.def Info: fig4-eps-converted-to.pdf used on input line 198.
+<./figs/fig4-eps-converted-to.pdf, id=139, 578.16pt x 433.62pt>
+File: ./figs/fig4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figs/fig4-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/fig4-eps-converted-to.pdf used on input line 19
+8.
 (pdftex.def)             Requested size: 341.42903pt x 227.62082pt.
- [5 <./fig4-eps-converted-to.pdf>]
+ [5 <./figs/fig4-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
@@ -804,21 +809,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-Package epstopdf Info: Source file: <fig5.eps>
+Package epstopdf Info: Source file: <./figs/fig5.eps>
 (epstopdf)                    date: 2017-11-19 19:58:27
 (epstopdf)                    size: 64633 bytes
-(epstopdf)             Output file: <fig5-eps-converted-to.pdf>
+(epstopdf)             Output file: <./figs/fig5-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-11-19 19:58:46
 (epstopdf)                    size: 18647 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig5-eps-converted-to.pdf 
-fig5.eps>
+(epstopdf)             Command: <repstopdf --outfile=./figs/fig5-eps-converted-
+to.pdf ./figs/fig5.eps>
 (epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
-<fig5-eps-converted-to.pdf, id=169, 578.16pt x 433.62pt>
-File: fig5-eps-converted-to.pdf Graphic file (type pdf)
+<./figs/fig5-eps-converted-to.pdf, id=169, 578.16pt x 433.62pt>
+File: ./figs/fig5-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig5-eps-converted-to.pdf>
-Package pdftex.def Info: fig5-eps-converted-to.pdf used on input line 227.
+<use ./figs/fig5-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/fig5-eps-converted-to.pdf used on input line 22
+7.
 (pdftex.def)             Requested size: 256.06737pt x 199.16988pt.
  [6]
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
@@ -830,34 +836,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[7 <./fig5-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig6.eps>
+[7 <./figs/fig5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figs/fig6.eps>
 (epstopdf)                    date: 2017-11-20 14:51:50
 (epstopdf)                    size: 3990 bytes
-(epstopdf)             Output file: <fig6-eps-converted-to.pdf>
+(epstopdf)             Output file: <./figs/fig6-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-11-20 14:51:58
 (epstopdf)                    size: 8898 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig6-eps-converted-to.pdf 
-fig6.eps>
+(epstopdf)             Command: <repstopdf --outfile=./figs/fig6-eps-converted-
+to.pdf ./figs/fig6.eps>
 (epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
 
-<fig6-eps-converted-to.pdf, id=216, 578.16pt x 433.62pt>
-File: fig6-eps-converted-to.pdf Graphic file (type pdf)
+<./figs/fig6-eps-converted-to.pdf, id=216, 578.16pt x 433.62pt>
+File: ./figs/fig6-eps-converted-to.pdf Graphic file (type pdf)
 
-<use fig6-eps-converted-to.pdf>
-Package pdftex.def Info: fig6-eps-converted-to.pdf used on input line 315.
+<use ./figs/fig6-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/fig6-eps-converted-to.pdf used on input line 31
+5.
 (pdftex.def)             Requested size: 199.16547pt x 184.9444pt.
- [8] [9 <./fig6-eps-converted-to.pdf>]
-(./wavelet.aux)
+ [8] [9 <./figs/fig6-eps-converted-to.pdf>] (./wavelet.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15236 strings out of 493029
- 295920 string characters out of 6136233
- 358528 words of memory out of 5000000
+ 15237 strings out of 493029
+ 296095 string characters out of 6136233
+ 358482 words of memory out of 5000000
  18399 multiletter control sequences out of 15000+600000
  42722 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -931,7 +937,7 @@ bsnu/gbsnu98.pfb></usr/share/texmf/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/s
 hare/texmf/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></usr/share/texmf/fonts/type1/a
 rphic/gbsnu/gbsnuff.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on wavelet.pdf (9 pages, 641219 bytes).
+Output written on wavelet.pdf (9 pages, 641253 bytes).
 PDF statistics:
  502 PDF objects out of 1000 (max. 8388607)
  339 compressed objects within 4 object streams
